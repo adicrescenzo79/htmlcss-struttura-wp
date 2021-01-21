@@ -20,9 +20,33 @@ body{
   clear: both;
 }
 
-body.debug div{
+/* debug */
+/* body.debug div{
   height: 100px;
+} */
+
+body.debug .h100{
+  height: 100px;
+  margin-top: 1em;
 }
+
+body.debug .h300{
+  height: 300px;
+  margin-top: 1em;
+}
+
+body.debug .h80{
+  height: 80px;
+  margin-top: 1em;
+}
+
+body.debug .h400{
+  height: 400px;
+  margin-top: 1em;
+}
+
+/* fine debug */
+
 
 .row-mt1{
   margin-top: 1em;
@@ -40,9 +64,11 @@ body.debug div{
   background-color: yellow;
 }
 
-/* .blu{
-  height: 100px;
-} */
+
+.h500{
+  height: 200px;
+  background-color: lightblue;
+}
 
 .bg-lightblue{
   background-color: lightblue;
