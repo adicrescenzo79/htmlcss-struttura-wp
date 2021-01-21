@@ -52,6 +52,10 @@ body.debug div{
   background-color: cyan;
 }
 
+.bg-purple{
+  background-color: purple;
+}
+
 .col-50{
   float: left;
   width: 50%;
