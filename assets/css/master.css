@@ -11,7 +11,7 @@ body{
 
 [class^=col-]{
   float: left;
-  padding: 0 1em;
+  padding: 0 0.5em;
 }
 
 [class^=col-]:after{
@@ -25,9 +25,19 @@ body{
   height: 100px;
 } */
 
-body.debug .h100{
-  height: 100px;
+body.debug .h80{
+  height: 80px;
   margin-top: 1em;
+}
+
+body.debug .h250{
+  height: 250px;
+  margin-top: 1em;
+}
+
+body.debug .h60{
+  height: 60px;
+  margin-top: 0em;
 }
 
 body.debug .h300{
@@ -35,9 +45,9 @@ body.debug .h300{
   margin-top: 1em;
 }
 
-body.debug .h80{
-  height: 80px;
-  margin-top: 1em;
+body.debug .h30{
+  height: 30px;
+  margin-top: 0.5em;
 }
 
 body.debug .h400{
@@ -48,38 +58,29 @@ body.debug .h400{
 /* fine debug */
 
 
-.row-mt1{
-  margin-top: 1em;
-}
-
 .col-100{
   width: 100%;
 }
 
 .bg-pink{
-  background-color: pink;
+  background-color: #E579E6;
 }
 
 .bg-yellow{
-  background-color: yellow;
-}
-
-
-.h500{
-  height: 200px;
-  background-color: lightblue;
+  background-color: #E1D67A;
 }
 
 .bg-lightblue{
-  background-color: lightblue;
+  background-color: #0186FF;
 }
 
 .bg-cyan{
-  background-color: cyan;
+  background-color: #ABCFE7;
 }
 
 .bg-purple{
-  background-color: purple;
+  background-color: #8801FE;
+
 }
 
 .col-50{
@@ -90,4 +91,9 @@ body.debug .h400{
 .col-25{
   float: left;
   width: 25%;
+  padding: 0;
+}
+
+.bg-lightblue .col-100{
+  padding: 0;
 }
